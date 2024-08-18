@@ -1,0 +1,107 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title>Contact</title>
+</head>
+<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body {
+		height: 100vh;
+		background: linear-gradient(165deg, #14919B 50%, lightgray 50%);
+	}
+	.container {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+	}
+	.container div {
+		text-align: center;
+	}
+	nav {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			background: transparent;
+			padding: 10px;
+		}
+		nav a {
+			font-size: 20px;
+			margin: 0 50px;
+			text-decoration: none;
+			color: #000;
+			font-weight: bold;
+			font-family: 'Arial';
+			transition: font-size 0.3s ease, color 0.3s ease;
+		}
+		p{
+			width: 600px;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			font-family: 'Times New Roman', sans-serif;
+		}
+		a:hover{
+			border-radius: 5px;
+			color: lightgray;
+			font-size: 23px;
+			background-color: gray;
+		}
+		.box{
+			background-color: white;
+			height: 50px;
+			width: 1700px;
+			border-radius: 7px;
+		}
+	.facebook i, .number i, .google i {
+		font-size: 100px;
+		color: #4267B2;
+	}
+	.facebook a {
+		display: block;
+		font-size: 30px;
+		color: #000;
+		text-decoration: none;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.number p, .google p {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+	.number i, .google i {
+		color: #000;
+	}
+</style>
+<body>
+	<div class="box">
+		<nav class="navbar">
+			<a href="loyd.html">|Home</a>
+			<a href="about.html">|About</a>
+			<a href="contact.html">|Contact</a>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="facebook">
+			<a href="https://web.facebook.com/profile.php?id=100077693997479">John Loyd Sapungan</a>
+			<i class='bx bxl-facebook'></i>
+		</div>
+		<div class="number">
+			<p>09555935805</p>
+			<i class='bx bx-phone'></i>
+		</div>
+		<div class="google">
+			<p>sapunganjohnloyd9@gmail.com</p>
+			<i class='bx bxl-gmail'></i>
+		</div>
+	</div>
+</body>
+</html>
